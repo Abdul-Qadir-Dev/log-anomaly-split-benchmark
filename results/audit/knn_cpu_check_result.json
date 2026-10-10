@@ -1,0 +1,23 @@
+{
+  "dataset": "HDFS_v1",
+  "split": "chrono",
+  "seed": 0,
+  "k": 10,
+  "n_train": 333878,
+  "n_query": 5000,
+  "max_abs_diff": 5.364418029785156e-07,
+  "mean_abs_diff": 5.585288163274527e-08,
+  "spearman_rho": 0.23444944040854654,
+  "spearman_p": 2.1062342129714617e-63,
+  "n_unique_rounded_scores_gpu": 19,
+  "n_unique_rounded_scores_cpu": 21,
+  "spearman_caveat": "Most scores are tied at ~0 (session embeddings identical to a training normal session); float32 vs float64 noise reorders the tied block, which deflates Spearman without indicating a real discrepancy -- see metrics_on_query below.",
+  "metrics_on_query_subsample": {
+    "auprc_gpu": 0.9779293175981211,
+    "auprc_cpu": 0.9779156326529294,
+    "auroc_gpu": 0.9996830436704656,
+    "auroc_cpu": 0.9996830436704656
+  },
+  "pass_bar_1e-4": true,
+  "verdict": "PASS"
+}

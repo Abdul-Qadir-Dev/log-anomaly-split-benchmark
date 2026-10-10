@@ -1,0 +1,11 @@
+{
+  "dataset": "BGL",
+  "split": "chrono",
+  "seed": 0,
+  "n_test": 9496,
+  "n_normal": 8690,
+  "n_anomalous": 806,
+  "mean_unseen_rate_normal": 0.7675132336018412,
+  "mean_unseen_rate_anomalous": 0.8753028870770806,
+  "auroc_unseen_rate_alone": 0.49807278266853605
+}

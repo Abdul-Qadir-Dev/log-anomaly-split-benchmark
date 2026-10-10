@@ -1,0 +1,103 @@
+{
+  "auroc": 0.6807683572963321,
+  "auroc_ci_lo": 0.6730885856119926,
+  "auroc_ci_hi": 0.6885280022042839,
+  "auprc": 0.3797248128570047,
+  "auprc_ci_lo": 0.36447861964752404,
+  "auprc_ci_hi": 0.3946442732045819,
+  "threshold_val": 0.02083333395421505,
+  "precision_val": 0.993543179983858,
+  "recall_val": 0.36131493982976226,
+  "f1_val": 0.5299182092122255,
+  "threshold_oracle": 0.020408162847161293,
+  "f1_oracle": 0.5302345599311384,
+  "f1_leakage_gap": 0.00031635071891289446,
+  "n_val": 115012,
+  "n_test": 115013,
+  "n_anomaly_val": 3419,
+  "n_anomaly_test": 3407,
+  "dataset": "HDFS_v1",
+  "split": "random",
+  "seed": 0,
+  "config": {
+    "max_windows": 1000000,
+    "windows_used": 1000000,
+    "n_windows_available": 7353052,
+    "max_epochs": 15,
+    "patience": 3,
+    "hidden": 128,
+    "layers": 2,
+    "top_k": 9
+  },
+  "fit_seconds": 1737.8174502849579,
+  "last_completed_epoch": 13,
+  "stopped_reason": "early_stopping_at_epoch_13_patience_3",
+  "best_val_loss": 0.20488192866115174,
+  "epoch_log": [
+    {
+      "epoch": 1,
+      "val_loss": 0.21131152704059333,
+      "cumulative_seconds": 140.301598072052
+    },
+    {
+      "epoch": 2,
+      "val_loss": 0.20833496385577055,
+      "cumulative_seconds": 275.33087849617004
+    },
+    {
+      "epoch": 3,
+      "val_loss": 0.20728313939617016,
+      "cumulative_seconds": 410.7162127494812
+    },
+    {
+      "epoch": 4,
+      "val_loss": 0.20703912761239004,
+      "cumulative_seconds": 542.7977406978607
+    },
+    {
+      "epoch": 5,
+      "val_loss": 0.20640960889795212,
+      "cumulative_seconds": 676.6022250652313
+    },
+    {
+      "epoch": 6,
+      "val_loss": 0.20545758826240282,
+      "cumulative_seconds": 812.7468054294586
+    },
+    {
+      "epoch": 7,
+      "val_loss": 0.2057957709317213,
+      "cumulative_seconds": 943.948748588562
+    },
+    {
+      "epoch": 8,
+      "val_loss": 0.20564158703670724,
+      "cumulative_seconds": 1074.0982208251953
+    },
+    {
+      "epoch": 9,
+      "val_loss": 0.2049562091228537,
+      "cumulative_seconds": 1205.0260019302368
+    },
+    {
+      "epoch": 10,
+      "val_loss": 0.20488192866115174,
+      "cumulative_seconds": 1338.9741280078888
+    },
+    {
+      "epoch": 11,
+      "val_loss": 0.2050135726278988,
+      "cumulative_seconds": 1468.196338891983
+    },
+    {
+      "epoch": 12,
+      "val_loss": 0.20595587370352728,
+      "cumulative_seconds": 1601.016976594925
+    },
+    {
+      "epoch": 13,
+      "val_loss": 0.20565913903384403,
+      "cumulative_seconds": 1737.7590112686157
+    }
+  ]
+}

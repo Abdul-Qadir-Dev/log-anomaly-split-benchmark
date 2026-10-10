@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "HDFS_v1",
+    "split": "random",
+    "config": "lightweight",
+    "hash_after_training": "4345eb24683e304a1486869fc150235c349862e67d4b31c8b5f502cf93f2eb06",
+    "hash_after_loading": "4345eb24683e304a1486869fc150235c349862e67d4b31c8b5f502cf93f2eb06",
+    "hash_after_scoring": "4345eb24683e304a1486869fc150235c349862e67d4b31c8b5f502cf93f2eb06",
+    "unchanged_load_vs_train": true,
+    "unchanged_score_vs_load": true
+  },
+  {
+    "dataset": "HDFS_v1",
+    "split": "chrono",
+    "config": "lightweight",
+    "hash_after_training": "bca7f3e8e1e9701902d3ac134fc1cd55304d5fa3891abede31c7bfbe560e33c1",
+    "hash_after_loading": "bca7f3e8e1e9701902d3ac134fc1cd55304d5fa3891abede31c7bfbe560e33c1",
+    "hash_after_scoring": "bca7f3e8e1e9701902d3ac134fc1cd55304d5fa3891abede31c7bfbe560e33c1",
+    "unchanged_load_vs_train": true,
+    "unchanged_score_vs_load": true
+  },
+  {
+    "dataset": "HDFS_v1",
+    "split": "random",
+    "config": "fullstrength",
+    "hash_after_training": "2d04a939e2413ad65c2b4cb678957013463eadbcd47a94eab5571fe1b7e5488a",
+    "hash_after_loading": "2d04a939e2413ad65c2b4cb678957013463eadbcd47a94eab5571fe1b7e5488a",
+    "hash_after_scoring": "2d04a939e2413ad65c2b4cb678957013463eadbcd47a94eab5571fe1b7e5488a",
+    "unchanged_load_vs_train": true,
+    "unchanged_score_vs_load": true
+  },
+  {
+    "dataset": "HDFS_v1",
+    "split": "chrono",
+    "config": "fullstrength",
+    "hash_after_training": "f33f982d49f67e340a5be3e30ba8e2a7b1097cb1722201f571d8d6630ec61665",
+    "hash_after_loading": "f33f982d49f67e340a5be3e30ba8e2a7b1097cb1722201f571d8d6630ec61665",
+    "hash_after_scoring": "f33f982d49f67e340a5be3e30ba8e2a7b1097cb1722201f571d8d6630ec61665",
+    "unchanged_load_vs_train": true,
+    "unchanged_score_vs_load": true
+  }
+]

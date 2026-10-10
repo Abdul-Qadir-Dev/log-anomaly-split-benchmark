@@ -1,0 +1,100 @@
+{
+  "hash_check": {
+    "dataset": "HDFS_v1",
+    "split": "random",
+    "config": "lightweight",
+    "hash_after_training": "4345eb24683e304a1486869fc150235c349862e67d4b31c8b5f502cf93f2eb06",
+    "hash_after_loading": "4345eb24683e304a1486869fc150235c349862e67d4b31c8b5f502cf93f2eb06",
+    "hash_after_scoring": "4345eb24683e304a1486869fc150235c349862e67d4b31c8b5f502cf93f2eb06",
+    "unchanged_load_vs_train": true,
+    "unchanged_score_vs_load": true
+  },
+  "saturation": {
+    "fraction_exactly_zero": 0.9754114752245399,
+    "mean_score_normal": 8.588516579866245e-05,
+    "mean_score_anomalous": 0.07911587659938785,
+    "histogram_counts": [
+      114217,
+      133,
+      651,
+      7,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "histogram_bin_edges": [
+      0.0,
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "k_sweep": [
+    {
+      "config": "lightweight",
+      "split": "random",
+      "k": 1,
+      "auroc": 0.8717733945615561,
+      "auprc": 0.5801530252716195
+    },
+    {
+      "config": "lightweight",
+      "split": "random",
+      "k": 2,
+      "auroc": 0.8531798865943253,
+      "auprc": 0.4400964624799214
+    },
+    {
+      "config": "lightweight",
+      "split": "random",
+      "k": 3,
+      "auroc": 0.8889647270669002,
+      "auprc": 0.5459201712324717
+    },
+    {
+      "config": "lightweight",
+      "split": "random",
+      "k": 5,
+      "auroc": 0.9092589601219953,
+      "auprc": 0.7392548800270018
+    },
+    {
+      "config": "lightweight",
+      "split": "random",
+      "k": 7,
+      "auroc": 0.9031150091656714,
+      "auprc": 0.7537975959027603
+    },
+    {
+      "config": "lightweight",
+      "split": "random",
+      "k": 9,
+      "auroc": 0.8822633108658835,
+      "auprc": 0.7442990123926482
+    }
+  ],
+  "nll_row": {
+    "config": "lightweight",
+    "split": "random",
+    "nll_auroc": 0.9910432429702163,
+    "nll_auprc": 0.7599739953357109,
+    "nll_f1_val": 0.7015671133318191,
+    "nll_f1_oracle": 0.7015671133318191,
+    "topk9_auroc": 0.8822633108658835,
+    "topk9_auprc": 0.7442990123926482,
+    "topk9_f1_val": 0.8377467501203659,
+    "topk9_f1_oracle": 0.8378812199036918,
+    "spearman_nll_vs_topk9": 0.26546920752868336,
+    "spearman_p": 0.0
+  }
+}

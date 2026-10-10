@@ -1,0 +1,103 @@
+{
+  "total_lines_read": 4747963,
+  "expected_lines": 4747963,
+  "lines_match_expected": true,
+  "lines_dropped_during_parse": 0,
+  "drop_reasons_by_field_count": {},
+  "alert_labelled_line_count": 348460,
+  "non_alert_line_count": 4399503,
+  "n_templates_hdfs": 55,
+  "n_templates_bgl": 1346,
+  "bgl_over_fragmentation_flag": false,
+  "bgl_chrono_seed0_unseen_template_rate": {
+    "recorded_in_split_json": 0.7746005267686293,
+    "recomputed_per_occurrence": 0.7746005267686293,
+    "per_unique_template": 0.75,
+    "n_test_templates_distinct": 600,
+    "n_test_templates_unseen_distinct": 450,
+    "n_test_occurrences": 949563,
+    "n_test_occurrences_unseen": 735532
+  },
+  "top_20_templates": [
+    {
+      "template": "generating core.<NUM>",
+      "count": 1706751
+    },
+    {
+      "template": "iar <*> dear <*>",
+      "count": 441942
+    },
+    {
+      "template": "<NUM> double-hummer alignment exceptions",
+      "count": 295764
+    },
+    {
+      "template": "<NUM> floating point alignment exceptions",
+      "count": 267725
+    },
+    {
+      "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+      "count": 201206
+    },
+    {
+      "template": "data TLB error interrupt",
+      "count": 152734
+    },
+    {
+      "template": "<NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.",
+      "count": 135092
+    },
+    {
+      "template": "<NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.",
+      "count": 135092
+    },
+    {
+      "template": "instruction cache parity error corrected",
+      "count": 105924
+    },
+    {
+      "template": "idoproxydb hit ASSERT condition: ASSERT expression=<NUM> Source file=idotransportmgr.cpp Source line=<NUM> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",
+      "count": 84168
+    },
+    {
+      "template": "data storage interrupt",
+      "count": 63493
+    },
+    {
+      "template": "ciod: generated <NUM> core files for program <*>",
+      "count": 61460
+    },
+    {
+      "template": "program interrupt: <*> <*>",
+      "count": 51730
+    },
+    {
+      "template": "instruction address: <HEX>",
+      "count": 51227
+    },
+    {
+      "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+      "count": 46376
+    },
+    {
+      "template": "ciod: LOGIN <*> failed: No such file or directory",
+      "count": 43643
+    },
+    {
+      "template": "ciod: Error loading <*> invalid or missing program image, Permission denied",
+      "count": 42912
+    },
+    {
+      "template": "ciod: Received signal <NUM>, code=<NUM>, errno=<NUM>, address=<HEX>",
+      "count": 39457
+    },
+    {
+      "template": "",
+      "count": 34470
+    },
+    {
+      "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+      "count": 33939
+    }
+  ]
+}

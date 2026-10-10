@@ -1,0 +1,21 @@
+{
+  "dataset": "BGL",
+  "split": "chrono",
+  "seed": 0,
+  "spearman_unseen_vs_semantic_score_normal_only": {
+    "rho": 0.5441474912124218,
+    "p": 0.0,
+    "n": 8690
+  },
+  "spearman_unseen_vs_semantic_score_anomalous_only": {
+    "rho": 0.619931329943574,
+    "p": 9.50959891307814e-87,
+    "n": 806
+  },
+  "spearman_unseen_vs_semantic_score_all": {
+    "rho": 0.5518091576773941,
+    "p": 0.0,
+    "n": 9496
+  },
+  "semantic_knn_auroc_this_rescore": 0.34247459359750093
+}

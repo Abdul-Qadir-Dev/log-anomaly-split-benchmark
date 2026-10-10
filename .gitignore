@@ -1,0 +1,11 @@
+.venv/
+data/raw/*
+!data/raw/INVENTORY.md
+data/processed/
+data/sample/
+results/selftest/
+figures/selftest/
+models/
+*.log
+__pycache__/
+*.pyc

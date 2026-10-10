@@ -1,0 +1,11 @@
+{
+  "dataset": "HDFS_v1",
+  "split": "chrono",
+  "seed": 0,
+  "n_test": 115013,
+  "n_normal": 113333,
+  "n_anomalous": 1680,
+  "mean_unseen_rate_normal": 0.0,
+  "mean_unseen_rate_anomalous": 0.09942730649952289,
+  "auroc_unseen_rate_alone": 0.7160714285714286
+}

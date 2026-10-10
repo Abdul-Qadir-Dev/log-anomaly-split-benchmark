@@ -1,0 +1,73 @@
+{
+  "dataset": "HDFS_v1",
+  "split": "chrono",
+  "config": "fullstrength",
+  "hidden": 128,
+  "layers": 2,
+  "n_params": 278455,
+  "max_windows": 1000000,
+  "n_windows_used": 1000000,
+  "n_windows_available": 8024868,
+  "max_epochs": 15,
+  "early_stop_enabled": true,
+  "patience": 3,
+  "last_completed_epoch": 8,
+  "stopped_reason": "early_stopping_at_epoch_8_patience_3",
+  "train_loss_final": 0.22608762470149993,
+  "best_val_loss": 0.15575405610895318,
+  "epoch_log": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2769897417354584,
+      "val_loss": 0.171250589045628,
+      "cumulative_seconds": 128.28348684310913
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.23290980362033845,
+      "val_loss": 0.15611210019148733,
+      "cumulative_seconds": 256.11627173423767
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.22986095928192138,
+      "val_loss": 0.15821690191588633,
+      "cumulative_seconds": 388.90456318855286
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.22868897257232665,
+      "val_loss": 0.163446757129309,
+      "cumulative_seconds": 531.5365390777588
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.2275389481563568,
+      "val_loss": 0.15575405610895318,
+      "cumulative_seconds": 1479.5798428058624
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.22692008991241455,
+      "val_loss": 0.15687975101749965,
+      "cumulative_seconds": 1650.8833048343658
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.2264547994146347,
+      "val_loss": 0.16112451511912254,
+      "cumulative_seconds": 1821.6535668373108
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.22608762470149993,
+      "val_loss": 0.15906201479872525,
+      "cumulative_seconds": 2004.9349677562714
+    }
+  ],
+  "fit_seconds": 2004.9567375183105,
+  "validation_set_used": "normal_only (label==0 validation sessions)",
+  "state_dict_hash_after_training": "f33f982d49f67e340a5be3e30ba8e2a7b1097cb1722201f571d8d6630ec61665",
+  "pad_id": 55,
+  "n_vocab": 55
+}

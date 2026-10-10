@@ -1,0 +1,169 @@
+{
+  "total_test_occurrences": 949563,
+  "unseen_test_occurrences": 735532,
+  "unseen_rate": 0.7746005267686293,
+  "fraction_unseen_occ_with_nearest_train_similarity_above_0.8": 0.01546635632440193,
+  "similarity_metric": "Jaccard similarity on lowercased whitespace-split tokens",
+  "top_20": [
+    {
+      "template_id": 1142,
+      "template": "iar <*> dear <*>",
+      "occurrences": 257777,
+      "nearest_train_template_id": 2,
+      "nearest_train_template": "<*> <*> <NUM>:<NUM> <NUM>:<NUM>",
+      "jaccard_similarity": 0.25
+    },
+    {
+      "template_id": 57,
+      "template": "<NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.",
+      "occurrences": 135092,
+      "nearest_train_template_id": 572,
+      "nearest_train_template": "EndServiceAction is restarting the <*> in midplane R<NUM>-M<NUM> as part of Service Action <NUM>",
+      "jaccard_similarity": 0.1333
+    },
+    {
+      "template_id": 68,
+      "template": "<NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.",
+      "occurrences": 135092,
+      "nearest_train_template_id": 857,
+      "nearest_train_template": "critical input interrupt enable...<NUM>",
+      "jaccard_similarity": 0.125
+    },
+    {
+      "template_id": 830,
+      "template": "ciod: Received signal <NUM>, code=<NUM>, errno=<NUM>, address=<HEX>",
+      "occurrences": 39457,
+      "nearest_train_template_id": 71,
+      "nearest_train_template": "<NUM>, max=<NUM>",
+      "jaccard_similarity": 0.125
+    },
+    {
+      "template_id": 813,
+      "template": "ciod: Error reading message prefix on CioStream socket to <IP>, <*> <*> <*> <*>",
+      "occurrences": 27794,
+      "nearest_train_template_id": 812,
+      "nearest_train_template": "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to <IP>: Link has been severed",
+      "jaccard_similarity": 0.5
+    },
+    {
+      "template_id": 595,
+      "template": "Kernel detected <NUM> integer alignment exceptions (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX>",
+      "occurrences": 22175,
+      "nearest_train_template_id": 55,
+      "nearest_train_template": "<NUM> double-hummer alignment exceptions",
+      "jaccard_similarity": 0.25
+    },
+    {
+      "template_id": 806,
+      "template": "ciod: Error loading <*> invalid or missing program image, Permission denied",
+      "occurrences": 18176,
+      "nearest_train_template_id": 804,
+      "nearest_train_template": "ciod: Error loading <*> invalid or missing program image, Exec format error",
+      "jaccard_similarity": 0.6923
+    },
+    {
+      "template_id": 840,
+      "template": "ciod: generated <NUM> core files for program <*>",
+      "occurrences": 16396,
+      "nearest_train_template_id": 1252,
+      "nearest_train_template": "program interrupt: <*> <*>",
+      "jaccard_similarity": 0.2222
+    },
+    {
+      "template_id": 608,
+      "template": "MACHINE CHECK <*> <*> <*> <*> iar <HEX> lr <HEX>)",
+      "occurrences": 14481,
+      "nearest_train_template_id": 1186,
+      "nearest_train_template": "machine check <*>",
+      "jaccard_similarity": 0.4286
+    },
+    {
+      "template_id": 53,
+      "template": "<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds",
+      "occurrences": 10436,
+      "nearest_train_template_id": 54,
+      "nearest_train_template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+      "jaccard_similarity": 0.6429
+    },
+    {
+      "template_id": 1336,
+      "template": "total of <NUM> ddr error(s) detected and corrected over <NUM> seconds",
+      "occurrences": 10415,
+      "nearest_train_template_id": 1335,
+      "nearest_train_template": "total of <NUM> ddr error(s) detected and corrected",
+      "jaccard_similarity": 0.8
+    },
+    {
+      "template_id": 1315,
+      "template": "rts: kernel terminated for reason <NUM>",
+      "occurrences": 5120,
+      "nearest_train_template_id": 1316,
+      "nearest_train_template": "rts: kernel terminated for reason <NUM>rts: bad message header: <*> <*> <*> type=<NUM>, cpu=<NUM>, index=<NUM>, <*>",
+      "jaccard_similarity": 0.3571
+    },
+    {
+      "template_id": 580,
+      "template": "Error receiving packet on tree network, expecting type <NUM> instead of type <NUM> <*> <*> <NUM> <NUM>) PSR<NUM>=<NUM>f<NUM> PSR<NUM>=<NUM> PRXF=<NUM> PIXF=<NUM>",
+      "occurrences": 5120,
+      "nearest_train_template_id": 820,
+      "nearest_train_template": "ciod: In packet from node <NUM>.<NUM> <*> message code <NUM> is not <NUM> or <NUM> <*> <NUM> <NUM> <NUM>)",
+      "jaccard_similarity": 0.1481
+    },
+    {
+      "template_id": 854,
+      "template": "critical input interrupt (unit=<HEX> bit=<HEX>): warning for <*> <*> wire, suppressing further interrupts of same type",
+      "occurrences": 3544,
+      "nearest_train_template_id": 853,
+      "nearest_train_template": "critical input interrupt (unit=<HEX> bit=<HEX>): warning for <*> <*> wire",
+      "jaccard_similarity": 0.5
+    },
+    {
+      "template_id": 61,
+      "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds",
+      "occurrences": 3511,
+      "nearest_train_template_id": 60,
+      "nearest_train_template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+      "jaccard_similarity": 0.8571
+    },
+    {
+      "template_id": 598,
+      "template": "L<NUM> DCACHE summary averages: #ofDirtyLines: <NUM> out of <NUM> #ofDirtyDblWord: <NUM> out of <NUM>",
+      "occurrences": 3149,
+      "nearest_train_template_id": 1232,
+      "nearest_train_template": "number of correctable errors detected in L<NUM> <*>",
+      "jaccard_similarity": 0.1333
+    },
+    {
+      "template_id": 70,
+      "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds",
+      "occurrences": 3148,
+      "nearest_train_template_id": 69,
+      "nearest_train_template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+      "jaccard_similarity": 0.8333
+    },
+    {
+      "template_id": 606,
+      "template": "Lustre mount FAILED : bglio<NUM> : block_id : location",
+      "occurrences": 2440,
+      "nearest_train_template_id": 559,
+      "nearest_train_template": "DCR <HEX> : <HEX>",
+      "jaccard_similarity": 0.1111
+    },
+    {
+      "template_id": 814,
+      "template": "ciod: Error reading message prefix on CioStream socket to <IP>, Connection timed out",
+      "occurrences": 1991,
+      "nearest_train_template_id": 812,
+      "nearest_train_template": "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to <IP>: Link has been severed",
+      "jaccard_similarity": 0.45
+    },
+    {
+      "template_id": 810,
+      "template": "ciod: Error reading message prefix after <*> on CioStream socket to <IP>: <*> <*> <*> <*>",
+      "occurrences": 1532,
+      "nearest_train_template_id": 812,
+      "nearest_train_template": "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to <IP>: Link has been severed",
+      "jaccard_similarity": 0.6471
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "BGL_timewindow/random/pca": {
+    "auroc": 0.6747866287339972,
+    "auprc": 0.2999775192052742,
+    "unseen_template_rate": 0.005075182895553816
+  },
+  "BGL_timewindow/random/iforest": {
+    "auroc": 0.6761773521641943,
+    "auprc": 0.3082754893481042,
+    "unseen_template_rate": 0.005075182895553816
+  },
+  "BGL_timewindow/random/ocsvm": {
+    "auroc": 0.8089565129038813,
+    "auprc": 0.6715554479438863,
+    "unseen_template_rate": 0.005075182895553816
+  },
+  "BGL_timewindow/random/deeplog": {
+    "auroc": 0.8552314062182483,
+    "auprc": 0.4276370832289126,
+    "unseen_template_rate": 0.005075182895553816
+  },
+  "BGL_timewindow/random/semantic_knn": {
+    "auroc": 0.8662238366185734,
+    "auprc": 0.6898720283768568,
+    "unseen_template_rate": 0.005075182895553816
+  },
+  "BGL_timewindow/random/supervised_lgbm": {
+    "auroc": 0.9305717841902053,
+    "auprc": 0.8930256155325693,
+    "unseen_template_rate": 0.005075182895553816
+  },
+  "BGL_timewindow/chrono/pca": {
+    "auroc": 0.7522849968612682,
+    "auprc": 0.39681231142892226,
+    "unseen_template_rate": 0.7897898571447263
+  },
+  "BGL_timewindow/chrono/iforest": {
+    "auroc": 0.8287821720025109,
+    "auprc": 0.5613723537410794,
+    "unseen_template_rate": 0.7897898571447263
+  },
+  "BGL_timewindow/chrono/ocsvm": {
+    "auroc": 0.48425612052730693,
+    "auprc": 0.16525969921805353,
+    "unseen_template_rate": 0.7897898571447263
+  },
+  "BGL_timewindow/chrono/deeplog": {
+    "auroc": 0.507532956685499,
+    "auprc": 0.17569919211018636,
+    "unseen_template_rate": 0.7897898571447263
+  },
+  "BGL_timewindow/chrono/semantic_knn": {
+    "auroc": 0.8238418079096045,
+    "auprc": 0.5642370330189587,
+    "unseen_template_rate": 0.7897898571447263
+  },
+  "BGL_timewindow/chrono/supervised_lgbm": {
+    "auroc": 0.7126993094789706,
+    "auprc": 0.6314500640518987,
+    "unseen_template_rate": 0.7897898571447263
+  },
+  "HDFS_701515/random/pca": {
+    "auroc": 0.9754954688406489,
+    "auprc": 0.5899529289079346,
+    "unseen_template_rate": 6.891122908477936e-06
+  },
+  "HDFS_701515/random/iforest": {
+    "auroc": 0.781780262853126,
+    "auprc": 0.09498305241761873,
+    "unseen_template_rate": 6.891122908477936e-06
+  },
+  "HDFS_701515/random/ocsvm": {
+    "auroc": 0.9853681826868271,
+    "auprc": 0.6884120397649087,
+    "unseen_template_rate": 6.891122908477936e-06
+  },
+  "HDFS_701515/random/deeplog": {
+    "auroc": 0.7475969772250292,
+    "auprc": 0.477868141712301,
+    "unseen_template_rate": 6.891122908477936e-06
+  },
+  "HDFS_701515/random/semantic_knn": {
+    "auroc": 0.999946124228843,
+    "auprc": 0.9977023330888779,
+    "unseen_template_rate": 6.891122908477936e-06
+  },
+  "HDFS_701515/random/supervised_lgbm": {
+    "auroc": 0.9997121988933909,
+    "auprc": 0.9992088360750094,
+    "unseen_template_rate": 6.891122908477936e-06
+  },
+  "HDFS_701515/chrono/pca": {
+    "auroc": 0.999263918314055,
+    "auprc": 0.9468564455410156,
+    "unseen_template_rate": 0.0
+  },
+  "HDFS_701515/chrono/iforest": {
+    "auroc": 0.8297662054787556,
+    "auprc": 0.24824408385391186,
+    "unseen_template_rate": 0.0
+  },
+  "HDFS_701515/chrono/ocsvm": {
+    "auroc": 0.9995445729385461,
+    "auprc": 0.9705980991030092,
+    "unseen_template_rate": 0.0
+  },
+  "HDFS_701515/chrono/deeplog": {
+    "auroc": 0.820885788217271,
+    "auprc": 0.617364876740584,
+    "unseen_template_rate": 0.0
+  },
+  "HDFS_701515/chrono/semantic_knn": {
+    "auroc": 0.9998192920145066,
+    "auprc": 0.9860057550319351,
+    "unseen_template_rate": 0.0
+  },
+  "HDFS_701515/chrono/supervised_lgbm": {
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "unseen_template_rate": 0.0
+  },
+  "HDFS_v1_semantic_k5/random": {
+    "auroc": 0.9954497172090373,
+    "auprc": 0.9875990184795299
+  },
+  "HDFS_v1_semantic_k20/random": {
+    "auroc": 0.999914775247052,
+    "auprc": 0.9964592440167894
+  },
+  "HDFS_v1_semantic_k5/chrono": {
+    "auroc": 0.9998021895442549,
+    "auprc": 0.9854806889100055
+  },
+  "HDFS_v1_semantic_k20/chrono": {
+    "auroc": 0.9997954090621276,
+    "auprc": 0.985045426096087
+  },
+  "BGL_semantic_k5/random": {
+    "auroc": 0.8846144076407234,
+    "auprc": 0.7278206319133483
+  },
+  "BGL_semantic_k20/random": {
+    "auroc": 0.8379648445437918,
+    "auprc": 0.6077528203205426
+  },
+  "BGL_semantic_k5/chrono": {
+    "auroc": 0.8266415568110483,
+    "auprc": 0.612540387815407
+  },
+  "BGL_semantic_k20/chrono": {
+    "auroc": 0.8213684871311989,
+    "auprc": 0.5392620807336225
+  }
+}

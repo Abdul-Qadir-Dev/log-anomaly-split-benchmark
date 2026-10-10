@@ -1,0 +1,100 @@
+{
+  "hash_check": {
+    "dataset": "HDFS_v1",
+    "split": "chrono",
+    "config": "lightweight",
+    "hash_after_training": "bca7f3e8e1e9701902d3ac134fc1cd55304d5fa3891abede31c7bfbe560e33c1",
+    "hash_after_loading": "bca7f3e8e1e9701902d3ac134fc1cd55304d5fa3891abede31c7bfbe560e33c1",
+    "hash_after_scoring": "bca7f3e8e1e9701902d3ac134fc1cd55304d5fa3891abede31c7bfbe560e33c1",
+    "unchanged_load_vs_train": true,
+    "unchanged_score_vs_load": true
+  },
+  "saturation": {
+    "fraction_exactly_zero": 0.9854277342561276,
+    "mean_score_normal": 0.0003705623197006064,
+    "mean_score_anomalous": 0.11057547394087602,
+    "histogram_counts": [
+      114180,
+      256,
+      572,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "histogram_bin_edges": [
+      0.0,
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "k_sweep": [
+    {
+      "config": "lightweight",
+      "split": "chrono",
+      "k": 1,
+      "auroc": 0.9462360498539282,
+      "auprc": 0.7460005603920512
+    },
+    {
+      "config": "lightweight",
+      "split": "chrono",
+      "k": 2,
+      "auroc": 0.8250737896077845,
+      "auprc": 0.4391799320499949
+    },
+    {
+      "config": "lightweight",
+      "split": "chrono",
+      "k": 3,
+      "auroc": 0.8037018858878997,
+      "auprc": 0.5143821156988301
+    },
+    {
+      "config": "lightweight",
+      "split": "chrono",
+      "k": 5,
+      "auroc": 0.8072894699690293,
+      "auprc": 0.5506920740721875
+    },
+    {
+      "config": "lightweight",
+      "split": "chrono",
+      "k": 7,
+      "auroc": 0.807461064486324,
+      "auprc": 0.5722815450077483
+    },
+    {
+      "config": "lightweight",
+      "split": "chrono",
+      "k": 9,
+      "auroc": 0.8047461379088091,
+      "auprc": 0.5630842110345541
+    }
+  ],
+  "nll_row": {
+    "config": "lightweight",
+    "split": "chrono",
+    "nll_auroc": 0.9905685646974591,
+    "nll_auprc": 0.7110498653889157,
+    "nll_f1_val": 0.34578573633837606,
+    "nll_f1_oracle": 0.640198511166253,
+    "topk9_auroc": 0.8047461379088091,
+    "topk9_auprc": 0.5630842110345541,
+    "topk9_f1_val": 0.6141920095408467,
+    "topk9_f1_oracle": 0.6216216216216217,
+    "spearman_nll_vs_topk9": 0.2081792369763718,
+    "spearman_p": 0.0
+  }
+}

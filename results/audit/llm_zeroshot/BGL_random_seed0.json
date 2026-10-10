@@ -1,0 +1,11 @@
+{
+  "dataset": "BGL",
+  "split": "random",
+  "seed": 0,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "device": "cuda",
+  "n_sample": 200,
+  "n_per_class": 100,
+  "auroc": 0.74525,
+  "auprc": 0.6929735152487961
+}

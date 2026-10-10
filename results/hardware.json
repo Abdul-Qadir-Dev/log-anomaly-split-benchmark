@@ -1,0 +1,10 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cpu_count_logical": 12,
+  "ram_gb": 19.84,
+  "torch_version": "2.6.0+cu124",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce GTX 1660 Ti",
+  "gpu_vram_gb": 6.0,
+  "hardware_tier": "gpu_present"
+}

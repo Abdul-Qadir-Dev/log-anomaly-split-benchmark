@@ -1,0 +1,58 @@
+{
+  "auroc": 0.7832604365853176,
+  "auroc_ci_lo": 0.771343529539721,
+  "auroc_ci_hi": 0.7946461508043177,
+  "auprc": 0.5568543608672375,
+  "auprc_ci_lo": 0.5326882552433868,
+  "auprc_ci_hi": 0.5807237944692414,
+  "threshold_val": 0.02380952425301075,
+  "precision_val": 0.8815911193339501,
+  "recall_val": 0.5672619047619047,
+  "f1_val": 0.690329590727997,
+  "threshold_oracle": 0.03030303120613098,
+  "f1_oracle": 0.6905797101449275,
+  "f1_leakage_gap": 0.0002501194169304277,
+  "n_val": 115012,
+  "n_test": 115013,
+  "n_anomaly_val": 4000,
+  "n_anomaly_test": 1680,
+  "dataset": "HDFS_v1",
+  "split": "chrono",
+  "seed": 0,
+  "config": {
+    "max_windows": 1000000,
+    "windows_used": 1000000,
+    "n_windows_available": 8024868,
+    "max_epochs": 15,
+    "patience": 3,
+    "hidden": 128,
+    "layers": 2,
+    "top_k": 9
+  },
+  "fit_seconds": 509.7932629585266,
+  "last_completed_epoch": 4,
+  "stopped_reason": "early_stopping_at_epoch_4_patience_3",
+  "best_val_loss": 0.15502450055922878,
+  "epoch_log": [
+    {
+      "epoch": 1,
+      "val_loss": 0.15502450055922878,
+      "cumulative_seconds": 124.61417245864868
+    },
+    {
+      "epoch": 2,
+      "val_loss": 0.16264570206431253,
+      "cumulative_seconds": 255.11916995048523
+    },
+    {
+      "epoch": 3,
+      "val_loss": 0.1678873348925993,
+      "cumulative_seconds": 381.88114643096924
+    },
+    {
+      "epoch": 4,
+      "val_loss": 0.1576542902743025,
+      "cumulative_seconds": 509.7506973743439
+    }
+  ]
+}

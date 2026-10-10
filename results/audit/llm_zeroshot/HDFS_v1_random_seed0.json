@@ -1,0 +1,11 @@
+{
+  "dataset": "HDFS_v1",
+  "split": "random",
+  "seed": 0,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "device": "cuda",
+  "n_sample": 200,
+  "n_per_class": 100,
+  "auroc": 0.438,
+  "auprc": 0.488034188034188
+}

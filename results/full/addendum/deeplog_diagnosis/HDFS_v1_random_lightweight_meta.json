@@ -1,0 +1,55 @@
+{
+  "dataset": "HDFS_v1",
+  "split": "random",
+  "config": "lightweight",
+  "hidden": 64,
+  "layers": 2,
+  "n_params": 73719,
+  "max_windows": 100000,
+  "n_windows_used": 100000,
+  "n_windows_available": 7353052,
+  "max_epochs": 5,
+  "early_stop_enabled": false,
+  "patience": null,
+  "last_completed_epoch": 5,
+  "stopped_reason": "completed_all_epochs",
+  "train_loss_final": 0.22721198574066162,
+  "best_val_loss": 0.2298734103973993,
+  "epoch_log": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7683237722396851,
+      "val_loss": 0.32409842765495256,
+      "cumulative_seconds": 13.844467401504517
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2859446429729462,
+      "val_loss": 0.2657130106066319,
+      "cumulative_seconds": 23.968521118164062
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2507593648958206,
+      "val_loss": 0.2419874235997067,
+      "cumulative_seconds": 33.562013149261475
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.2339439887189865,
+      "val_loss": 0.2352632964072532,
+      "cumulative_seconds": 43.38106894493103
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.22721198574066162,
+      "val_loss": 0.2298734103973993,
+      "cumulative_seconds": 53.23838710784912
+    }
+  ],
+  "fit_seconds": 53.245421171188354,
+  "validation_set_used": "normal_only (label==0 validation sessions)",
+  "state_dict_hash_after_training": "4345eb24683e304a1486869fc150235c349862e67d4b31c8b5f502cf93f2eb06",
+  "pad_id": 55,
+  "n_vocab": 55
+}

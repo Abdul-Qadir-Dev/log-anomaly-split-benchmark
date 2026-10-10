@@ -1,0 +1,14 @@
+{
+  "HDFS_v1": {
+    "n_sessions": 575061,
+    "anomaly_rate": 0.029280371995318757,
+    "n_templates": 55
+  },
+  "BGL": {
+    "n_sessions": 47480,
+    "anomaly_rate": 0.10115838247683236,
+    "n_templates": 1346,
+    "n_sessions_timewindow": 3619,
+    "anomaly_rate_timewindow": 0.18375241779497098
+  }
+}
